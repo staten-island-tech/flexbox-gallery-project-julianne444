@@ -9,17 +9,25 @@ body,
 
 .parent {
   font-size: 20px;
-}
-h2 {
-  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.px-size {
-  font-size: 20px;
+.child {
+  width: 20%;
 }
-.rem-size {
-  font-size: 2rem;
+.child-1 {
+  border: 3px solid green;
+  height: 500px;
 }
-.em-size {
-  font-size: 1em;
+.child-2 {
+  border: 3px solid rgb(231, 37, 37);
+  height: 300px;
+  flex-grow: 1;
+}
+.child-3 {
+  border: 3px solid rgb(172, 52, 228);
+  height: 700px;
+  flex-grow: 3;
 }
