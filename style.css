@@ -1,33 +1,38 @@
 html,
 body,
 * {
+  background-color: rgb(209, 199, 178);
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%; /* Normally 100% is 16px. We want the size to be 10px so we do 62.5%. */
+  font-family: "EB Garamond", serif;
+}
+.header {
+  font-size: 5rem;
+  color: rgb(44, 31, 25);
+  text-align: center;
+  padding: 3rem;
+  border: 1rem solid rgb(95, 70, 37);
+  background-color: rgb(162, 175, 158);
 }
 
-.parent {
-  font-size: 20px;
+.column {
+  font-size: 5rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  text-align: center;
 }
 
 .child {
-  width: 20%;
+  background-color: rgb(238, 234, 228);
+  width: 25%;
+  border: 0.7rem solid rgb(122, 68, 46);
+  border-radius: 1.5rem;
+  height: 35rem;
+  margin-top: 5rem;
 }
-.child-1 {
-  border: 3px solid green;
-  height: 500px;
-}
-.child-2 {
-  border: 3px solid rgb(231, 37, 37);
-  height: 300px;
-  flex-grow: 1;
-}
-.child-3 {
-  border: 3px solid rgb(172, 52, 228);
-  height: 700px;
-  flex-grow: 3;
+.text {
+  font-size: 2rem;
 }
