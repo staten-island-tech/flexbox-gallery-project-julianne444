@@ -27,12 +27,18 @@ body,
 
 .child {
   background-color: rgb(238, 234, 228);
-  width: 25%;
+  width: 40rem;
+  length: 40rem;
   border: 0.7rem solid rgb(122, 68, 46);
   border-radius: 1.5rem;
   height: 35rem;
   margin-top: 5rem;
+  box-shadow: 1rem 1rem 2rem rgb(110, 92, 81);
 }
 .text {
   font-size: 2rem;
+}
+.main {
+  width: 15rem;
+  length: 20rem;
 }
