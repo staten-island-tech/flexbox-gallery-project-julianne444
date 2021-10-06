@@ -25,20 +25,23 @@ body,
   text-align: center;
 }
 
-.child {
+.main {
   background-color: rgb(238, 234, 228);
-  width: 40rem;
-  length: 40rem;
+  width: 36rem;
   border: 0.7rem solid rgb(122, 68, 46);
   border-radius: 1.5rem;
   height: 35rem;
   margin-top: 5rem;
-  box-shadow: 1rem 1rem 2rem rgb(110, 92, 81);
+  padding: 1rem;
+  font-size: 3.4rem;
+  box-shadow: 1rem 1rem 1rem rgb(122, 105, 91);
 }
 .text {
   font-size: 2rem;
 }
-.main {
-  width: 15rem;
-  length: 20rem;
+
+.pic {
+  width: 55%;
+  text-align: center;
+  padding: 10px;
 }
