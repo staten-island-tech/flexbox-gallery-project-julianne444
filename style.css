@@ -1,12 +1,20 @@
 html,
 body,
 * {
-  background-color: rgb(209, 199, 178);
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%; /* Normally 100% is 16px. We want the size to be 10px so we do 62.5%. */
   font-family: "EB Garamond", serif;
+}
+body {
+  background-color: rgb(209, 199, 178);
+}
+.desc {
+  color: solid blue;
+}
+.gallery {
+  display: flex;
 }
 .header {
   font-size: 5rem;
@@ -17,15 +25,7 @@ body,
   background-color: rgb(162, 175, 158);
 }
 
-.column {
-  font-size: 5rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-}
-
-.main {
+.card {
   background-color: rgb(238, 234, 228);
   width: 36rem;
   border: 0.7rem solid rgb(122, 68, 46);
@@ -34,14 +34,19 @@ body,
   margin-top: 5rem;
   padding: 1rem;
   font-size: 3.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   box-shadow: 1rem 1rem 1rem rgb(122, 105, 91);
 }
-.text {
+.card-title {
+}
+.card-sub-header {
   font-size: 2rem;
 }
 
-.pic {
+.card-img {
   width: 55%;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
 }
