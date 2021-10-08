@@ -10,19 +10,20 @@ body,
 body {
   background-color: rgb(209, 199, 178);
 }
-.desc {
-  color: solid blue;
-}
 .gallery {
   display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 2rem;
 }
+
 .header {
   font-size: 5rem;
   color: rgb(44, 31, 25);
   text-align: center;
   padding: 3rem;
   border: 1rem solid rgb(95, 70, 37);
-  background-color: rgb(162, 175, 158);
+  background-color: rgb(170, 175, 158);
 }
 
 .card {
@@ -40,6 +41,9 @@ body {
   box-shadow: 1rem 1rem 1rem rgb(122, 105, 91);
 }
 .card-title {
+  color: black;
+  font-size: 27px;
+  font-style: italic;
 }
 .card-sub-header {
   font-size: 2rem;
