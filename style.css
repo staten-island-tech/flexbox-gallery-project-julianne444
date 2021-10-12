@@ -31,7 +31,7 @@ body {
   width: 36rem;
   border: 0.7rem solid rgb(122, 68, 46);
   border-radius: 1.5rem;
-  height: 35rem;
+  height: 37rem;
   margin-top: 5rem;
   padding: 1rem;
   font-size: 3.4rem;
@@ -44,13 +44,18 @@ body {
   color: black;
   font-size: 27px;
   font-style: italic;
+  padding: 5px;
 }
 .card-sub-header {
-  font-size: 2rem;
+  font-size: 18px;
+  padding: 20px;
+  color: rgb(139, 48, 25);
 }
 
 .card-img {
-  width: 55%;
+  width: 170px;
+  height: 180px;
   text-align: center;
-  padding: 5px;
+  margin-top: 2rem;
+  box-shadow: 5px 5px 10px rgb(146, 134, 128);
 }
