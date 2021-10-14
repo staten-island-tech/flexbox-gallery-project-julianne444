@@ -48,9 +48,7 @@ body {
   padding: 5px;
   transition: all 0.4s;
 }
-.card-title:hover {
-  transform: scale(1.5);
-}
+
 .card-sub-header {
   font-size: 18px;
   padding: 20px;
